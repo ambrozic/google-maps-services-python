@@ -14,11 +14,11 @@ if sys.version_info <= (2, 4):
 
 
 requirements = [
-    'requests<=2.6',
+    'requests==2.7.0',
 ]
 
 setup(name='googlemaps',
-      version='2.3-dev',
+      version='2.3-forked',
       description='Python client library for Google Maps API Web Services',
       scripts=[],
       url='https://github.com/googlemaps/google-maps-services-python',
